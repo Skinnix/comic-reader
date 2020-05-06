@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <LangVersion>preview</LangVersion>
+    <Nullable>Enable</Nullable>
+    <AssemblyName>Skinnix.ComicReader.Client.Base</AssemblyName>
+    <RootNamespace>Skinnix.ComicReader.Client.Base</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath>..\..\Bin\$(Configuration)\ComicReaderClientBase</OutputPath>
+    <Authors>Skinnix</Authors>
+    <Product>ComicReader</Product>
+    <Copyright>skinnix.net 2020</Copyright>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <Nullable>Enable</Nullable>
+    <AssemblyName>Skinnix.ComicReader</AssemblyName>
+    <RootNamespace>Skinnix.ComicReader</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath>..\..\Bin\$(Configuration)\ComicReaderShared</OutputPath>
+    <Authors>Skinnix</Authors>
+    <Product>ComicReader</Product>
+    <Copyright>skinnix.net 2020</Copyright>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.3" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
